@@ -1,0 +1,52 @@
+.logo{
+    display:block;
+    margin:auto;
+    width: 50px;
+    height: 50px;
+}
+body{
+    height: auto;
+    background-image: radial-gradient(rgba(187, 187, 186, 0.966),rgba(241, 250, 201, 0.966));
+}
+.container{
+    background-color: darkslategrey;
+    margin:auto;
+    height:60vh;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 20px;
+    overflow-y:auto;
+}
+.message{
+    background-color: lightgreen;
+    width: 24%;
+    padding:5px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear:both;
+}
+
+.right{
+    float: right;
+    clear:both;
+}
+#send-containeer{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#massageInp{
+width: 50%;
+height: 40px;
+border:2px solid darkgray;
+border-radius: 10px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    height: 40px;
+}
