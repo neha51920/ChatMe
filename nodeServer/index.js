@@ -1,5 +1,5 @@
 //for connection purpose
-const io=require('socket.io')(8000)
+const io=require('socket.io')(PORT)
 //all users store here
 const users={};
 //whenever connection method call..

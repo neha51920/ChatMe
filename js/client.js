@@ -1,4 +1,4 @@
-const socket=io('http://localhost:8000');
+const socket=io('http://localhost:PORT');
 
 const form=document.getElementById('send-containeer')
 const messageInput=document.getElementById('massageInp')
