@@ -1,10 +1,11 @@
 //for connection purpose
+const PORT=3000;
 const io=require('socket.io')(PORT)
 //all users store here
 const users={};
 //whenever connection method call..
 io.on('connection',socket=>{
-    console.log('connection')
+    console.log('connected')
     //whenever new-user-joined...
     socket.on('new-user-joined',name=>{
         users[socket.id]=name;

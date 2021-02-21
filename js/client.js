@@ -1,4 +1,4 @@
-const socket=io('http://localhost:PORT');
+const socket=io('http://localhost:3000');
 
 const form=document.getElementById('send-containeer')
 const messageInput=document.getElementById('massageInp')
@@ -22,6 +22,8 @@ form.addEventListener('submit',(e)=>{
     socket.emit('send',message);
     messageInput.value=' '
 })
+
+
 const name=prompt('Enter your name to join')
 socket.emit('new-user-joined',name);
 
